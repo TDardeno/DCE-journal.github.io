@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,14 +34,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-52910846a82ee785d618f7f28beff77c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-48e5140a7aed9f2ea8f32f5f899b1cae.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +114,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -140,7 +141,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/DCE-mod.png" alt="" class="navbar-logo">
+    <img src="./images/DCE-mod.png" alt="" class="navbar-logo light-content">
+    <img src="./images/DCE-mod.png" alt="" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">DCE-blog</span>
@@ -212,7 +214,7 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="QWNhZGVtaWMlMkNFZGl0b3JpYWwlMkNQYXBlciUyMHN1bW1hcnk=" data-listing-date-sort="1757890800000" data-listing-file-modified-sort="1760023179365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2241">
+<div class="quarto-post image-right" data-index="0" data-categories="QWNhZGVtaWMlMkNFZGl0b3JpYWwlMkNQYXBlciUyMHN1bW1hcnk=" data-listing-date-sort="1757890800000" data-listing-file-modified-sort="1763111741329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2241">
 <div class="thumbnail"><a href="./posts/14_ECross/EJ_MJ.html" class="no-external">
 
 <img loading="lazy" src="./posts/14_ECross/tamar.jpg" class="thumbnail-image">
@@ -246,7 +248,7 @@ Elizabeth Cross, Matthew Jones
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="QWNhZGVtaWM=" data-listing-date-sort="1717455600000" data-listing-file-modified-sort="1755704094937" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414">
+<div class="quarto-post image-right" data-index="1" data-categories="QWNhZGVtaWM=" data-listing-date-sort="1717455600000" data-listing-file-modified-sort="1763111741329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="414">
 <div class="thumbnail"><a href="./posts/13_net_zero_aviation/aviation_AI.html" class="no-external">
 
 <img loading="lazy" src="./posts/13_net_zero_aviation/william-bayreuther-C0KdBbibUYo-unsplash.jpg" class="thumbnail-image">
@@ -276,7 +278,7 @@ Pranay Seshadri
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="QWNhZGVtaWMlMkNUcmFuc2xhdGlvbmFs" data-listing-date-sort="1712617200000" data-listing-file-modified-sort="1755704094924" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="909">
+<div class="quarto-post image-right" data-index="2" data-categories="QWNhZGVtaWMlMkNUcmFuc2xhdGlvbmFs" data-listing-date-sort="1712617200000" data-listing-file-modified-sort="1763111741295" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="909">
 <div class="thumbnail"><a href="./posts/12_built_environment/built_env.html" class="no-external">
 
 <img loading="lazy" src="./posts/12_built_environment/erik-van-dijk-uAWRPtZ6n0s-unsplash.jpg" class="thumbnail-image">
@@ -308,7 +310,7 @@ Ramaseshan Kannan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="QWNhZGVtaWMlMkNTZW1pbmFy" data-listing-date-sort="1708300800000" data-listing-file-modified-sort="1755707510556" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
+<div class="quarto-post image-right" data-index="3" data-categories="QWNhZGVtaWMlMkNTZW1pbmFy" data-listing-date-sort="1708300800000" data-listing-file-modified-sort="1763111741295" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="429">
 <div class="thumbnail"><a href="./posts/11_engineering_emulators_DTs/engineering_emulators_DTs.html" class="no-external">
 
 <img loading="lazy" src="./posts/11_engineering_emulators_DTs/priyadharshan-saba-3euV-7cbqxY-unsplash.jpg" class="thumbnail-image">
@@ -340,7 +342,7 @@ Ron Kenett
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="RWRpdG9yaWFsJTJDQWNhZGVtaWM=" data-listing-date-sort="1701129600000" data-listing-file-modified-sort="1757928755768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="632">
+<div class="quarto-post image-right" data-index="4" data-categories="RWRpdG9yaWFsJTJDQWNhZGVtaWM=" data-listing-date-sort="1701129600000" data-listing-file-modified-sort="1763111741262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="632">
 <div class="thumbnail"><a href="./posts/10_EI_chatzi/EI_chatzi.html" class="no-external">
 
 <img loading="lazy" src="./posts/10_EI_chatzi/michael-dziedzic-kMgwpYA4orI-unsplash.jpg" class="thumbnail-image">
@@ -372,7 +374,7 @@ Eleni Chatzi
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="QWNhZGVtaWM=" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1755704094898" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="762">
+<div class="quarto-post image-right" data-index="5" data-categories="QWNhZGVtaWM=" data-listing-date-sort="1699833600000" data-listing-file-modified-sort="1763111741262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="762">
 <div class="thumbnail"><a href="./posts/09_world_avatar/world_avatar.html" class="no-external">
 
 <img loading="lazy" src="./posts/09_world_avatar/aleksandr-popov-aW50su5Dwek-unsplash.jpg" class="thumbnail-image">
@@ -402,7 +404,7 @@ Markus Kraft
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1696374000000" data-listing-file-modified-sort="1755704094887" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="631">
+<div class="quarto-post image-right" data-index="6" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1696374000000" data-listing-file-modified-sort="1763111741246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="631">
 <div class="thumbnail"><a href="./posts/08_sharing_benchmarks/sharing_benchmarks.html" class="no-external">
 
 <img loading="lazy" src="./posts/08_sharing_benchmarks/christopher-burns-Kj2SaNHG-hg-unsplash.jpg" class="thumbnail-image">
@@ -432,7 +434,7 @@ Adrian Clifton
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1675296000000" data-listing-file-modified-sort="1755704094849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="752">
+<div class="quarto-post image-right" data-index="7" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1675296000000" data-listing-file-modified-sort="1763111741198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="752">
 <div class="thumbnail"><a href="./posts/07_dynamic_fleets/dynamic_fleets.html" class="no-external">
 
 <img loading="lazy" src="./posts/07_dynamic_fleets/talgoHS.png" class="thumbnail-image">
@@ -462,7 +464,7 @@ Adolfo Crespo del Castillo
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="QWNhZGVtaWMlMkNUcmFuc2xhdGlvbmFs" data-listing-date-sort="1669334400000" data-listing-file-modified-sort="1755704094849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="584">
+<div class="quarto-post image-right" data-index="8" data-categories="QWNhZGVtaWMlMkNUcmFuc2xhdGlvbmFs" data-listing-date-sort="1669334400000" data-listing-file-modified-sort="1763111741198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="584">
 <div class="thumbnail"><a href="./posts/06_characterising_extremes/characterising_extremes.html" class="no-external">
 
 <img loading="lazy" src="./posts/06_characterising_extremes/TropicalAtlanticStormsNOAA.jpg" class="thumbnail-image">
@@ -494,7 +496,7 @@ Matthew Jones, Philip Jonathan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1665529200000" data-listing-file-modified-sort="1755705016897" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1700">
+<div class="quarto-post image-right" data-index="9" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1665529200000" data-listing-file-modified-sort="1763111741183" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1700">
 <div class="thumbnail"><a href="./posts/05_auto_supply_chains/auto_supply_chains.html" class="no-external">
 
 <img loading="lazy" src="./posts/05_auto_supply_chains/Picture1.jpg" class="thumbnail-image">
@@ -524,7 +526,7 @@ Adrià Salvador, Ponç Palau
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1655852400000" data-listing-file-modified-sort="1755704094839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1394">
+<div class="quarto-post image-right" data-index="10" data-categories="VHJhbnNsYXRpb25hbA==" data-listing-date-sort="1655852400000" data-listing-file-modified-sort="1763111741180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1394">
 <div class="thumbnail"><a href="./posts/04_safer_seas/safer_seas.html" class="no-external">
 
 <img loading="lazy" src="./posts/04_safer_seas/venti-views-1cqIcrWFQBI-unsplash.jpg" class="thumbnail-image">
@@ -554,7 +556,7 @@ Adrian Clifton
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="VHJhbnNsYXRpb25hbCUyQ0FjYWRlbWlj" data-listing-date-sort="1651014000000" data-listing-file-modified-sort="1755705930972" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="627">
+<div class="quarto-post image-right" data-index="11" data-categories="VHJhbnNsYXRpb25hbCUyQ0FjYWRlbWlj" data-listing-date-sort="1651014000000" data-listing-file-modified-sort="1763111741180" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="627">
 <div class="thumbnail"><a href="./posts/03_sensing_methane/sensing_methane.html" class="no-external">
 
 <img loading="lazy" src="./posts/03_sensing_methane/MethanePlumeAlgeria.png" class="thumbnail-image">
@@ -586,7 +588,7 @@ Matthew Jones, Philip Jonathan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="VHJhbnNsYXRpb25hbCUyQ1BhcGVyJTIwc3VtbWFyeQ==" data-listing-date-sort="1639526400000" data-listing-file-modified-sort="1755704094836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="687">
+<div class="quarto-post image-right" data-index="12" data-categories="VHJhbnNsYXRpb25hbCUyQ1BhcGVyJTIwc3VtbWFyeQ==" data-listing-date-sort="1639526400000" data-listing-file-modified-sort="1763111741162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="687">
 <div class="thumbnail"><a href="./posts/02_materials_informatics/materials_informatics.html" class="no-external">
 
 <img loading="lazy" src="./posts/02_materials_informatics/plant.jpg" class="thumbnail-image">
@@ -618,10 +620,10 @@ Hannah Melia
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="R3VpZGVsaW5lcw==" data-listing-date-sort="1639353600000" data-listing-file-modified-sort="1755704094833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
+<div class="quarto-post image-right" data-index="13" data-categories="R3VpZGVsaW5lcw==" data-listing-date-sort="1639353600000" data-listing-file-modified-sort="1763111741162" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="673">
 <div class="thumbnail"><a href="./posts/01_guidelines/guidelines.html" class="no-external">
 
-<p class="card-img-top"><img src="posts/01_guidelines/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\01_guidelines\thumbnail.jpg"  class="thumbnail-image card-img"/></p>
 
 </a></div>
 <div class="body">
@@ -702,13 +704,14 @@ DCE
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -723,7 +726,7 @@ DCE
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/DCE-journal\.github\.io\/");
+        var filterRegex = new RegExp("https:\/\/TDardeno\.github\.io\/DCE-journal\.github\.io\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
